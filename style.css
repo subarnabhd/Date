@@ -8,12 +8,12 @@ body {
 }
 .card {
   height: 100%;
-  text-align: center;
+  /* text-align: center; */
   background: transparent;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 20px;
   margin-bottom: 20px;
-  max-width: 1120px;
+  /* max-width: 1120px; */
   border: none;
   border-radius: 0px;
 }
@@ -144,12 +144,17 @@ body {
   border: 1px solid #2e2e2e;
   border-radius: 8px;
   text-decoration: none;
+width: 20%;
+
 }
 
 .bhdbutton:hover{
   background: #2e2e2e;
   border: 1px solid #4e4e4e;
   text-decoration: none;
+}
+.dateconv{
+width: 60%;
 }
 .cbutton{
   display: flex;
