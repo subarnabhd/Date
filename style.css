@@ -1,0 +1,206 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+}
+.card {
+  height: 100%;
+  text-align: center;
+  background: transparent;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1120px;
+  border: none;
+  border-radius: 0px;
+}
+.theader{
+  padding: 20px;
+  display: inline-block;
+}
+.chead {
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+
+}
+.cheader{
+  margin: 20px;
+  padding: 0px;
+  /* background-color: rgba(255, 255, 255, 0.064); */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 15px;
+  color: #e3e3e3;
+
+
+
+}
+.headerlink a{
+  color: #e3e3e3;
+}
+.headerlink a:hover{
+  color: #ffffff;
+}
+.tname{
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.chead a{
+  color: #a0a5ab;
+  font-weight: 300;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.cheader img {
+  width: 46px;
+  align-content: center;
+  margin-right: 10px;
+}
+.card-title {
+  color: #ffffff;!important;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin: 0px;
+}
+
+.card-tagline {
+  color: rgb(206, 206, 206) !important;
+  font-weight: 150;
+  font-size: 12px;
+  letter-spacing: 0px;
+  margin: 0px;
+}
+
+/* button-card Start */
+
+.button-card {
+  align-content: center;
+  text-align: center;
+  display: inline;
+}
+.button-card img {
+  width: 50px;
+  align-content: center;
+  /* border-radius: 12px; */
+  margin: 20px;
+}
+.tname{
+  padding: 10px 0px 0px 0px;
+  color: #fff!important;
+  font-weight: 800;
+  font-size: 32px;
+  margin: 0px;
+  text-decoration: none;
+}
+.c1name{
+  padding: 0px;
+  color: rgb(230, 230, 230)!important;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0px;
+}
+.c2name{
+  padding: 10px 0px 0px 0px;
+  color: #8e8e8e !important;
+  font-weight: 200;
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing:0.05em;
+}
+/* button-card End */
+
+
+
+
+/* bhdbutton start*/
+
+.bhdbutton {
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  z-index: 0;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+  background: #262626;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.bhdbutton:hover{
+  background: #2e2e2e;
+  border: 1px solid #4e4e4e;
+  text-decoration: none;
+}
+.cbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+/* bhdbutton end*/
+
+
+/* Buy me a Coffee Start */
+.coffee {
+  margin: 20px;
+}
+.coffee img {
+  width: 150px !important;
+}
+.coffee img:hover {
+  filter: drop-shadow(10px 10px 30px #ffdd04);
+}
+/* Buy me a Coffee End */
+
+
+
+/* Footer Start */
+.copywrite {
+  color: #959595 !important;
+  font-weight: 300;
+  font-size: 12px;
+}
+.copywrite a {
+  color: #959595 !important;
+  font-weight: 300;
+  text-decoration: none;
+}
+.copywrite a:hover {
+  color: #ffffff!important;
+  text-decoration: underline;
+}
+/* Footer End */
+
+/**image block Start**/
+img {
+  /* pointer-events: none; */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  /* user-drag: none; */
+  -webkit-touch-callout: none;
+}
+/**image block End**/
