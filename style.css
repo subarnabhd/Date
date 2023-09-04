@@ -145,7 +145,7 @@ body {
   border: 1px solid #ebebeb;
   border-radius: 8px;
   text-decoration: none;
-width: 20%;
+width: 18%;
 
 }
 span{
@@ -157,7 +157,7 @@ span{
   text-decoration: none;
 }
 .dateconv{
-width: 50%;
+width: 43%;
 }
 .cbutton{
   /* display: flex; */
@@ -195,7 +195,7 @@ width: 50%;
   text-decoration: none;
 }
 .copywrite a:hover {
-  color: #ffffff!important;
+  color: #de0000!important;
   text-decoration: underline;
 }
 /* Footer End */
@@ -212,3 +212,8 @@ img {
   -webkit-touch-callout: none;
 }
 /**image block End**/
+#ncwidgetlink{
+  display: none;
+  visibility: hidden;
+
+}
